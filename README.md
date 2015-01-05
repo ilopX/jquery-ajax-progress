@@ -42,3 +42,6 @@ You can see it in action on the `demo.html` page.
 ### Notes
 
  - This will not work using the `file://` protocol, see [XMLHttpRequest - Monitoring Progress](https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest/Using_XMLHttpRequest#Monitoring_progress) for more info.
+ - Some Content-Encoding methods may make the web server always return `e.lengthComputable == false`, please see thses discussions for more info. 
+   - [XMLHttpRequest lengthComputable always false](https://stackoverflow.com/questions/15833704/xmlhttprequest-lengthcomputable-always-false)
+   - [How can I use deflated/gzipped content with an XHR onProgress function?](https://stackoverflow.com/questions/15097712/how-can-i-use-deflated-gzipped-content-with-an-xhr-onprogress-function)
