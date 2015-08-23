@@ -1,0 +1,49 @@
+{
+  "name": "jquery-ajax-progress",
+  "version": "1.2",
+  "homepage": "https://github.com/ilopX/jquery-ajax-progress",
+  "description": "Simple patch that adds a 'progress' callback to jquery Ajax calls",
+  "main": "dist/jquery.ajax-progress.js",
+  "dependencies": {
+    "jquery": "2.1.*"
+  },
+  "devDependencies": {
+    "bootstrap": "3.*"
+  },
+  "keywords": [
+    "jquery",
+    "javascript",
+    "plugin",
+    "progress",
+    "ajax"
+  ],
+  "authors": [
+    {
+      "name": "englercj",
+      "email": "chad@pantherdev.com"
+    },
+    {
+      "name": "snoj",
+      "email": "josh@snoj.us"
+    },
+    {
+      "name": "RaphaelDDL",
+      "email": "ddl@raphaelddl.com"
+    },
+    {
+      "name": "ilopX",
+      "email": "ilopX@ukr.com"
+    }
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "examples/php-html-js",
+    "vendor",
+    "composer.json",
+    "composer.lock",
+    ".gitignore",
+    ".gitattributes",
+    ".bowerrc"
+  ]
+}
