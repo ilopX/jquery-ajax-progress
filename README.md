@@ -3,9 +3,9 @@
 A simple patch to jQuery that will call a 'progress' callback, using the 
 [XHR.onProgress](https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest/Using_XMLHttpRequest#Monitoring_progress) event
 
-## Demo
+## Video demo
 
-[![Video Demo](http://img.youtube.com/vi/w_NMJrOb7n4/1.jpg)](http://www.youtube.com/watch?v=w_NMJrOb7n4)
+[![Video Demo](http://img.youtube.com/vi/w_NMJrOb7n4/0.jpg)](http://www.youtube.com/watch?v=w_NMJrOb7n4)
 
 
 ## Install and use
@@ -29,11 +29,11 @@ or
 
 Include the script on your page:
 ```html
-<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress.js/master/js/jquery.ajax-progress.js"></script>
+<script src="https://rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.js"></script>
 ```
 or
 ```html
-<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress.js/master/js/jquery.ajax-progress.min.js"></script>
+<script src="https://rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.min.js"></script>
 ```
 
 
