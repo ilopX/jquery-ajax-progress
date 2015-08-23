@@ -3,29 +3,30 @@
  */
 
 $(function() {
-    function setProgress(loaded, total) {
-        var precis = (loaded / total) * 100;
-        precis = precis.toPrecision(3)+'%';
-        $('#progress').css({
-            width: precis
+    function setProgress(precis) {
+        var progress = $('#progress');
+
+        progress.toggleClass('active', precis < 100);
+
+        progress.css({
+            width: precis = precis.toPrecision(3)+'%'
         }).html('<span>'+precis+'</span>');
     }
 
     $.ajax({
-        method: 'GET',
-        url: 'server.php',
+        url: 'index/server.php',
         data: {
             action: true
         },
         success: function() {
-            alert('YAYE!');
+            alert('OK!');
         },
         error: function() {
-            alert('AWWW!');
+            alert('Error!');
         },
         progress: function(e) {
             if(e.lengthComputable) {
-                setProgress(e.loaded, e.total);
+                setProgress(e.loaded / e.total * 100);
                 $('#content').html(e.srcElement.responseText);
             }
             else {
