@@ -10,7 +10,9 @@ A simple patch to jQuery that will call a 'progress' callback, using the
 
 ## Install and use
 ### a. Composer
-install: **composer require ilopx/jquery-ajax-progress**
+```
+composer require ilopx/jquery-ajax-progress
+```
 
 Include the script on your page:
 ```html
