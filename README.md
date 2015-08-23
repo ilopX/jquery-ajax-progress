@@ -14,11 +14,11 @@ install: **composer require ilopx/jquery-ajax-progress**
 
 Include the script on your page:
 ```html
-<script src="/vendor/ilopx/jquery.ajax.progress/js/jquery.ajax-progress.js"></script>
+<script src="/vendor/ilopx/jquery-ajax-progress/js/jquery.ajax-progress.js"></script>
 ```
 or
 ```html
-<script src="/vendor/ilopx/jquery.ajax.progress/js/jquery.ajax-progress.min.js"></script>
+<script src="/vendor/ilopx/jquery-ajax-progress/js/jquery.ajax-progress.min.js"></script>
 ```
 
 ### b. Cdn
