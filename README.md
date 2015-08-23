@@ -5,10 +5,10 @@ A simple patch to jQuery that will call a 'progress' callback, using the
 
 ## Demo
 
-[![Video Demo](http://img.youtube.com/vi/0sxqNaznhlc/1.jpg)](http://www.youtube.com/watch?v=0sxqNaznhlc)
+[![Video Demo](http://img.youtube.com/vi/w_NMJrOb7n4/1.jpg)](http://www.youtube.com/watch?v=w_NMJrOb7n4)
 
 
-##I nstall and use
+## Install and use
 ### a. Composer
 install: **composer require ilopx/jquery-ajax-progress**
 
@@ -16,20 +16,29 @@ Include the script on your page:
 ```html
 <script src="/vendor/ilopx/jquery.ajax.progress/js/jquery.ajax-progress.js"></script>
 ```
-
+or
+```html
+<script src="/vendor/ilopx/jquery.ajax.progress/js/jquery.ajax-progress.min.js"></script>
+```
 
 ### b. Cdn
-[**jquery.ajax-progress.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress.js/master/js/jquery.ajax-progress.js) 
+[**jquery.ajax-progress.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.js) 
+or
+[**jquery.ajax-progress.min.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.min.js) 
 
 
 Include the script on your page:
 ```html
 <script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress.js/master/js/jquery.ajax-progress.js"></script>
 ```
+or
+```html
+<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress.js/master/js/jquery.ajax-progress.min.js"></script>
+```
 
 
 ## Use simple template script
-[**template.js**](https://github.com/ilopX/jquery-ajax-progress/blob/master/js/jquery.ajax-progress.js) 
+[**template.js**](https://github.com/ilopX/jquery-ajax-progress/blob/master/js/template.js) 
 
 ```javascript
 $(function() {

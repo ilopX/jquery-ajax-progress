@@ -1,3 +1,11 @@
+/**
+ * Created by PhpStorm.
+ * User: ilopX
+ * Date: 23.08.2015
+ * Time: 15:33
+ * Project: https://github.com/ilopX/jquery-ajax-progress
+ * This file: https://github.com/ilopX/jquery-ajax-progress/blob/master/js/jquery.ajax-progress.js
+ */
 (function($, window, undefined) {
     //is onprogress supported by browser?
     var hasOnProgress = ("onprogress" in $.ajaxSettings.xhr());
@@ -22,3 +30,5 @@
         return xhr;
     };
 })(jQuery, window);
+
+

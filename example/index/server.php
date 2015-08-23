@@ -4,6 +4,8 @@
  * User: ilopX
  * Date: 23.08.2015
  * Time: 15:33
+ * Project: https://github.com/ilopX/jquery-ajax-progress
+ * This file: https://github.com/ilopX/jquery-ajax-progress/blob/master/example/index/server.php
  */
 
 $data = str_repeat("wert yuiop", 200);
