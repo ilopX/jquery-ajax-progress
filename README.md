@@ -24,31 +24,12 @@ or
 <script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/dist/jquery.ajax-progress.min.js"></script>
 ```
 
-### b. Bower jquery-ajax-progress
+### b. Install
 ```
-bower install jquery-ajax-progress
+bower install ilopx-jquery-ajax-progress
 ```
-Include the script on your page:
-```html
-<script src="/bower_components/jquery-ajax-progress/dist/jquery.ajax-progress.js"></script>
-```
-or
-```html
-<script src="/bower_components/jquery-ajax-progress/dist/jquery.ajax-progress.min.js"></script>
-```
-
-### c. Composer
 ```
 composer require ilopx/jquery-ajax-progress
-```
-
-Include the script on your page:
-```html
-<script src="/vendor/ilopx/jquery-ajax-progress/dist/jquery.ajax-progress.js"></script>
-```
-or
-```html
-<script src="/vendor/ilopx/jquery-ajax-progress/dist/jquery.ajax-progress.min.js"></script>
 ```
 
 ## Use simple template script
@@ -81,6 +62,6 @@ $(function() {
 });
 ```
 
-### Notes
+## Notes
 
  - This will not work using the `file://` protocol, see [XMLHttpRequest - Monitoring Progress](https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest/Using_XMLHttpRequest#Monitoring_progress) for more info.

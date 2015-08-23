@@ -38,7 +38,6 @@
   "license": "MIT",
   "ignore": [
     "**/.*",
-    "examples/php-html-js",
     "vendor",
     "composer.json",
     "composer.lock",
