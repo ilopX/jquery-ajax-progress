@@ -9,38 +9,50 @@ A simple patch to jQuery that will call a 'progress' callback, using the
 
 
 ## Install and use
-### a. Composer
+
+### a. CDN
+[**jquery.ajax-progress.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/dist/jquery.ajax-progress.js) 
+or
+[**jquery.ajax-progress.min.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/dist/jquery.ajax-progress.min.js) 
+
+Include the script on your page:
+```html
+<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/dist/jquery.ajax-progress.js"></script>
+```
+or
+```html
+<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/dist/jquery.ajax-progress.min.js"></script>
+```
+
+### b. Bower jquery-ajax-progress
+```
+bower install jquery-ajax-progress
+```
+Include the script on your page:
+```html
+<script src="/bower_components/jquery-ajax-progress/dist/jquery.ajax-progress.js"></script>
+```
+or
+```html
+<script src="/bower_components/jquery-ajax-progress/dist/jquery.ajax-progress.min.js"></script>
+```
+
+### c. Composer
 ```
 composer require ilopx/jquery-ajax-progress
 ```
 
 Include the script on your page:
 ```html
-<script src="/vendor/ilopx/jquery-ajax-progress/js/jquery.ajax-progress.js"></script>
+<script src="/vendor/ilopx/jquery-ajax-progress/dist/jquery.ajax-progress.js"></script>
 ```
 or
 ```html
-<script src="/vendor/ilopx/jquery-ajax-progress/js/jquery.ajax-progress.min.js"></script>
+<script src="/vendor/ilopx/jquery-ajax-progress/dist/jquery.ajax-progress.min.js"></script>
 ```
-
-### b. CDN
-[**jquery.ajax-progress.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.js) 
-or
-[**jquery.ajax-progress.min.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.min.js) 
-
-
-Include the script on your page:
-```html
-<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.js"></script>
-```
-or
-```html
-<script src="https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.min.js"></script>
-```
-
 
 ## Use simple template script
-[**template.js**](https://github.com/ilopX/jquery-ajax-progress/blob/master/js/template.js) 
+[**template.js**](https://github.com/ilopX/jquery-ajax-progress/blob/master/dist/template.js) 
 
 ```javascript
 $(function() {

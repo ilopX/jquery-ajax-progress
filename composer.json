@@ -26,5 +26,10 @@
   },
   "require-dev":{
     "bower-asset/bootstrap": "3.*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "bower-asset-library": "vendor/bower"
+    }
   }
 }
