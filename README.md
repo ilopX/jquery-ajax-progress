@@ -4,7 +4,7 @@ A simple patch to jQuery that will call a 'progress' callback, using the
 [XHR.onProgress](https://developer.mozilla.org/en-US/docs/DOM/XMLHttpRequest/Using_XMLHttpRequest#Monitoring_progress) event
 
 ###Composer
-**composer require ilopx/jquery-ajax-progress**
+install: **composer require ilopx/jquery-ajax-progress**
 
 ### Usage
 
@@ -40,7 +40,7 @@ $.ajax({
 });
 ```
 
-You can see it in action on the `demo.html` page.
+You can see it in action on the `example/demo.html` page.
 
 ### Notes
 
