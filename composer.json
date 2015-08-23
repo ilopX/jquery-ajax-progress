@@ -1,0 +1,16 @@
+{
+  "name": "ilopx/jquery-ajax-progress",
+  "description": "Simple patch that adds a 'progress' callback to jquery Ajax calls",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "englercj",
+      "email": "chad@pantherdev.com"
+    },
+    {
+      "name": "ilopX",
+      "email": "ilopX@ukr.com"
+    }
+  ]
+}
