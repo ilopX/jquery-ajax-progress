@@ -1,6 +1,6 @@
 {
   "name": "jquery-ajax-progress",
-  "version": "1.2",
+  "version": "1.2.0",
   "homepage": "https://github.com/ilopX/jquery-ajax-progress",
   "description": "Simple patch that adds a 'progress' callback to jquery Ajax calls",
   "main": "dist/jquery.ajax-progress.js",
