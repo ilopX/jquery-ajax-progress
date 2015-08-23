@@ -5,10 +5,10 @@
   "description": "Simple patch that adds a 'progress' callback to jquery Ajax calls",
   "main": "dist/jquery.ajax-progress.js",
   "dependencies": {
-    "jquery": "2.1.*"
+    "jquery": "~2.1.1"
   },
   "devDependencies": {
-    "bootstrap": "3.*"
+    "bootstrap": "~3.3.5"
   },
   "keywords": [
     "jquery",
