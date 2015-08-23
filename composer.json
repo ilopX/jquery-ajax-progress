@@ -12,5 +12,11 @@
       "name": "ilopX",
       "email": "ilopX@ukr.com"
     }
-  ]
+  ],
+  "require":{
+    "bower-asset/jquery": "2.1.*"
+  },
+  "require-dev":{
+    "bower-asset/bootstrap": "3.*"
+  }
 }
