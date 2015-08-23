@@ -1,6 +1,9 @@
 /**
  * Created by PhpStorm.
  * User: ilopX
+ * Author: englercj <chad@pantherdev.com>
+ * Author: snoj <josh@snoj.us>
+ * Author: RaphaelDDL <ddl@raphaelddl.com>
  * Date: 23.08.2015
  * Time: 15:33
  * Project: https://github.com/ilopX/jquery-ajax-progress
