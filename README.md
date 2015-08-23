@@ -21,10 +21,10 @@ or
 <script src="/vendor/ilopx/jquery-ajax-progress/js/jquery.ajax-progress.min.js"></script>
 ```
 
-### b. Cdn
-[**jquery.ajax-progress.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.js) 
+### b. Download
+[**jquery.ajax-progress.js**](https://rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.js) 
 or
-[**jquery.ajax-progress.min.js**](https://cdn.rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.min.js) 
+[**jquery.ajax-progress.min.js**](https://rawgit.com/ilopX/jquery-ajax-progress/master/js/jquery.ajax-progress.min.js) 
 
 
 Include the script on your page:
